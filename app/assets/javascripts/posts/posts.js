@@ -5,7 +5,6 @@ angular.module('vancouverNews')
     var o = {
         posts: []
       };
-    
     o.getAll = function() {
         return $http.get('/posts.json')
         .success(function(data) {
@@ -16,6 +15,12 @@ angular.module('vancouverNews')
       return $http.post('/posts.json', post).success(function(data){
         o.posts.push(data);
       });
+    };
+    o.upvote = function(post) {
+      return $http.put('/posts/' + post.id + '/upvote.json')
+        .success(function(data){
+          post.upvotes += 1;
+        });
     };
     return o;
 }])
