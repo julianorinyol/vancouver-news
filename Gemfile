@@ -18,6 +18,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Downgraded this from the newer version because of a bug with 'angular-rails-templates'
 gem 'sprockets', '2.12.3'
 
+gem 'responders', '~> 2.0'
 
 
 # Use ActiveModel has_secure_password
@@ -42,4 +43,5 @@ group :development do
   gem 'spring'
 end
 
-gem 'angular-rails-templates'
+gem 'angular-rails-templates' 
+gem 'pry-rails'
