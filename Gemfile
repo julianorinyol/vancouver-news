@@ -46,3 +46,4 @@ end
 gem 'angular-rails-templates' 
 gem 'pry-rails'
 gem 'angular_rails_csrf'
+gem 'devise', '~> 3.4.0'
