@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-  root 'page#angular'
+  root 'application#angular'
 
   resources :posts, only: [:create, :index, :show] do
       resources :comments, only: [:show, :create] do
