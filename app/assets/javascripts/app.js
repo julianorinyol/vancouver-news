@@ -1,4 +1,4 @@
-angular.module('vancouverNews', ['ui.router', 'templates'])
+angular.module('vancouverNews', ['ui.router', 'templates', 'Devise'])
 .config([
 '$stateProvider',
 '$urlRouterProvider',
