@@ -47,7 +47,6 @@ GEM
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
-    byebug (8.0.0)
     coderay (1.1.0)
     debug_inspector (0.0.2)
     devise (3.4.1)
@@ -160,7 +159,6 @@ PLATFORMS
 DEPENDENCIES
   angular-rails-templates
   angular_rails_csrf
-  byebug
   devise (~> 3.4.0)
   jbuilder (~> 2.0)
   pry-rails
